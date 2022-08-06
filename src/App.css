@@ -1,0 +1,43 @@
+.nav a{
+  text-decoration: none;
+  color: white;
+}
+body{
+  margin: 0;
+  font-family: 'Inter',sans-serif;
+  background-color: black;
+  color: white;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 5vh;
+}
+.home{
+  flex: 1 1 auto;
+  padding-left: 50px;
+  padding-top: 20px;
+  background-image: url('images/laptop-too-dark.jpg');
+  background-repeat:no-repeat;
+  background-size: contain;
+  background-position: right;
+}
+.keyboard{
+  height: 50vh;
+  max-width: 100%;
+}
+.home-content > sup{
+  margin-left: 20vh;
+}
+
+.home-content > h1{
+  margin-top: 10vh;
+}
+.home-content > p{
+  margin-top: 5vh;
+}
+.App{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;  
+}
